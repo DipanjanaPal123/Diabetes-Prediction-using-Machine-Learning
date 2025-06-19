@@ -48,7 +48,7 @@ Each model was validated using **10-fold cross-validation** and compared using b
 ---
 
 ## 🔧 Hyperparameter Tuning
-Applied **GridSearchCV** to optimize:
+Applied **RandomizedSearchCV** to optimize:
 - Random Forest
 - XGBoost
 - LightGBM
@@ -78,5 +78,17 @@ The best-performing model was **XGBoost** with a cross-validation accuracy of ap
 ## 🖥️ How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/diabetes-prediction.git
-   cd diabetes-prediction
+   git clone https://github.com/DipanjanaPal123/Diabetes-Prediction-using-Machine-Learning.git
+   cd Diabetes Prediction using machine learning
+
+## 📚 Requirements
+
+- Python 
+- NumPy
+- Pandas
+- Scikit-learn
+- XGBoost
+- LightGBM
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
